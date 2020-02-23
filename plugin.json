@@ -1,18 +1,12 @@
 {
-    "pluginName": "插件名称",
+    "pluginName": "剑灵助手",
     "version": "0.0.1",
-    "description": "插件描述",
-    // 在uTools对应的位置显示
-    "author": "开发者",
-    // 如果配置了此项，用户点击`开发者`时，将在浏览器中打开此页面
+    "description": "剑灵进化石造价计算器",
+    "author": "顾念",
     "homepage": "https://u.tools",
-    // 入口文件，为空表示模板插件
-    "main": "index.html",
-    // 这是一个关键文件，你可以在此文件内调用uTools 、nodejs、electron提供的api
+    "main": "main/index.html",
     "preload":"preload.js",
-    // 此插件的图标，这是必须存在的，否则打包后将无法安装
     "logo": "logo.png",
-    // 插件支持的平台（默认为全平台支持）
     "platform": ["win32", "darwin", "linux"],
     // 在开发模式下，可使用development配置替换 main、preload、logo 的值，在打包时，此字段会被删除
     "development": {
@@ -29,10 +23,6 @@
         // 插件高度(可动态修改,但用户不能调整高度)
         "height": 0
     },
-    /*
-     * features 描述了当uTools主输入框内容产生变化时，此插件是否显示在搜索列表中
-     * 一个插件可以有多个功能，一个功能可以提供多个命令供用户搜索
-     */
     "features": [
         {
         	// 插件提供的某个功能(必须)
@@ -55,19 +45,6 @@
                  "label": "图片匹配"
               },
 
-              // files 实例
-              {
-                "type": "files",
-                "label": "文件匹配",
-                // 支持file或directory (可选)
-                "fileType": "file",
-                // 文件名称正则匹配  (可选)
-                "match": "/xxx/",
-                // 数量限制（不少于） (可选)
-                "minNum": 1,
-                // 数量限制（不多于） (可选)
-                "maxNum": 1
-              },
 
               // regex 实例
               {
