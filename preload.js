@@ -1,0 +1,4 @@
+
+utools.onPluginReady();
+
+utools.setSubInput();
