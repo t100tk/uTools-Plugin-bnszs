@@ -1,5 +1,3 @@
-
-
 const stoneEvolution = {
     number8: {
         xiandan: 2,

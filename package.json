@@ -1,0 +1,22 @@
+{
+  "name": "utools-plugin-bnszs",
+  "version": "1.0.0",
+  "description": "uTools剑灵助手",
+  "main": "preload.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t100tk/uTools-Plugin-bnszs.git"
+  },
+  "author": "顾念",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t100tk/uTools-Plugin-bnszs/issues"
+  },
+  "homepage": "https://github.com/t100tk/uTools-Plugin-bnszs#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
